@@ -1,0 +1,44 @@
+/* Section A (a): footer selector */
+footer {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  color: darkblue;
+  padding: 10px;
+  border: 1px dashed darkblue;
+  margin-top: 20px;
+}
+
+/* Section A (b): id named notice */
+#notice {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Section A (c): class for headline with dotted line */
+.headline {
+  border-bottom: 2px dotted #555;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+/* Section A (d): h1 selector */
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  background-color: rgba(173, 216, 230, 0.5);
+  text-shadow: 2px 2px 4px gray;
+  padding: 10px;
+}
+
+/* Section A (e): id named section */
+#section {
+  font-family: Arial, sans-serif;
+  font-size: small;
+  color: red;
+  background-color: #f5f5f5;
+  width: 80%;
+  box-shadow: 2px 2px 6px gray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
