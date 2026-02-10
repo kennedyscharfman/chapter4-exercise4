@@ -1,44 +1,52 @@
-/* Section A (a): footer selector */
+/* Footer styling */
 footer {
-  background-color: lightblue;
+  background-color: #cfe8f3;
   font-family: Arial, sans-serif;
-  color: darkblue;
+  color: #003366;
   padding: 10px;
-  border: 1px dashed darkblue;
-  margin-top: 20px;
-}
-
-/* Section A (b): id named notice */
-#notice {
-  width: 80%;
-  margin: 20px auto;
+  border: 2px dashed #003366;
   text-align: center;
 }
 
-/* Section A (c): class for headline with dotted line */
-.headline {
-  border-bottom: 2px dotted #555;
-  padding-bottom: 5px;
-  width: fit-content;
+/* Notice box */
+#notice {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px dotted #999;
 }
 
-/* Section A (d): h1 selector */
+/* Headline with dotted underline */
+.headline {
+  border-bottom: 2px dotted #666;
+  padding-bottom: 5px;
+}
+
+/* H1 styling */
 h1 {
   font-family: sans-serif;
   font-size: 4em;
   background-color: rgba(173, 216, 230, 0.5);
-  text-shadow: 2px 2px 4px gray;
   padding: 10px;
+  text-shadow: 3px 3px 5px gray;
 }
 
-/* Section A (e): id named section */
+/* Section styling */
 #section {
-  font-family: Arial, sans-serif;
-  font-size: small;
-  color: red;
-  background-color: #f5f5f5;
   width: 80%;
-  box-shadow: 2px 2px 6px gray;
+  margin: 20px auto;
   padding: 10px;
-  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: red;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 6px gray;
+}
+
+/* Image styling */
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
 }
